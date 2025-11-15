@@ -1,92 +1,317 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: linear-gradient(#7fffd4, #44d7a8, #00cc99, #30ba8f, #20b2aa);
+    overflow-x: hidden  ;
 }
 
-.ukuran {
-    width: 750px;
-    height: 200vh;
-    margin: 100px 170px;
-    box-shadow: 0px 0px 20px gray;
-    background-color: #fff;
+.background {
+    background-image: url(tic.webp);
+}
+
+.top {
+    padding-top: 15px;
 }
 
 .judul {
-    padding: 15px 131px;
-    display: flex;
-}
-
-.judul img {
-    padding-right: 10px;
+    display: inline-flex;
 }
 
 .judul h1 {
-    padding-top: 18px;
+    font-size: 25px;    
+    margin-left: 100px;
 }
 
-.formulir {
-    padding: 0px 25px;
-}
-
-.kiri {
-    margin-top: 20px;
-    margin-right: 50px;
-    float: right;
-}
-
-.kiri input {
-    width: 180px;
+.judul h2 {
+    width: 30px;
     height: 30px;
+    background-color:rgb(252, 235, 0);
+    border-radius: 50%;
 }
 
-.isi {
-    margin-top: 30px;
+.judul h3 {
+    font-size: 26px;
 }
 
-.isi input {
-    width: 500px;
-    height: 30px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.isi2 input {
-    width: 500px;
-    height: 30px;
+.atas {
+    display: inline-flex;
 }
 
-.derajat {
-    width: 150px;
-    height: 20px;
+.atas {
+    margin-left: 40px;
 }
 
-
-.isi3 label select #menu {
-    display: flex;
+.atas h3 i {
+    color: #FFE700;
 }
 
-.isi5 label select #menu {
-    display: flex;
+.atas h3 {
+    padding: 8px 10px;
 }
 
-.log button {
-	width: 100px;
-	height: 50px;
-	border: none;
-	outline: none;
-	border-radius: 10px;
-	font-size: 15px;
-	padding: 10px;
-    box-shadow: 0px 0px 5px;
-    background-color: #37AFE1;
-    cursor: pointer;
-    transition: transform 1s ease;
-    margin: 10px 300px;
-    font-family: arial black;
+.atas img {
+    padding-top: 12px;
+    padding-left: 10px;
 }
 
-.log button:hover {
+.atas h2 {
+    font-size: 20px;
+    padding-top: 8px;
+    margin-left: 5px;
+}
+
+.atas h4 {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #0066FF;
+    padding: 8px 10px;
+    margin: 0;
+    border-radius: 8%;
+    transition: transform 0.5s;
+    box-shadow: 0px 0px 20px white;
+}
+
+.atas h4:hover {
+    background-color: #0D92F4;
+    color: white;
     transform: scale(1.1);
+}
+
+section .pertama {
+    margin: 100px 321px;
+}
+
+.tema {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 330px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.tema img {
+    width: 150px;
+    height: 100px;
+}
+
+.tema h1 {
+    font-size: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.masuk {
+    position: relative;
+    width: 70%;
+    height: 5px;
+    margin: 5px 230px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.masuk input {
+    width: 80%;
+    height: 100%;
+    border: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px gray;
+    cursor: pointer;
+}
+
+.masuk input:text {
+    width: 80px;
+    height: 100%;
+    font-size: 80px;
+    margin: 10px;
+}
+
+.masuk input:placeholder {
+    color: black;
+}
+
+.masuk i {
+	position: absolute;
+    font-size: 80px;
+}
+
+.menu {
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.transport {
+    display: flex;
+    margin: 20px 240px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item,
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 1s ease;
+}
+
+.item:hover,
+.items:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.transport img,
+.boking img {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px grey;
+    margin: 0 10px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.transport h4,
+.boking h4 {
+    margin: 5px;
+    font-family: Arial Black;
+}
+
+.boking {
+    display: flex;
+    margin: 20px 270px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back {
+    padding-top: 30px;
+    background-color: #B3E0FF;
+}
+
+.kedua h1 {
+    margin: 0px 30px;
+}
+
+.ketiga h3 {
+    margin: 0px 30px;
+    font-family: Bell MT;
+}
+
+.wilayah {
+    display: flex;
+    margin: 25px 20px;
+    padding-bottom: 20px;
+}
+
+.prov h3 {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 20px;
+    transition: transform .5s ease;
+}
+
+.prov h3:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+} 
+
+.tempat {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 0px 50px;
+}
+
+.animasi {
+    display: inline-block;
+}
+
+.wisata img {
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.wisata {
+    width: 220px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px gray;
+    transition: transform 1s ease;
+}
+
+.wisata:hover {
+    transform: translateY(-25px);
+    transition: transform .8s ease;
+}
+
+.wisata h3 {
+    margin: 8px 10px;
+}
+
+.wisata h6 {
+    margin: 0px 10px;
+}
+
+.gambar {
+    display: flex;
+}
+
+.gambar img {
+    margin: 12px 10px;
+    box-shadow: none;
+}
+
+.gambar h6 {
+    margin: 15px 5px;
+}
+
+.harga h3 {
+    color: red;
+}
+
+.bawah {
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tekan {
+    width: 220px;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px gray;
+    transition: transform 1s ease;
+}
+
+.tekan:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tekan h2 {
+    color: #0066FF;
 }
