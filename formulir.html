@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="formulir.php" method="POST">
+
+    <div class="ukuran">
+
+<div class="judul">
+    <img src="ar.png" width="50px" height="70px">
+    <h1>FORMULIR PENDAFTARAN</h1>
+</div>
+
+<div class="formulir">
+    <div class="kiri">
+        <label for="No">No. Pendaftar :</label>
+        <input type="text" name="no_pendaftar">
+    </div>
+    <br><br>
+    <div class="isi">
+        <label for="Nama">Nama Lengkap &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="nama_lengkap">
+
+        <br><br>
+
+        <label for="Tanggal">Tempat, Tgl Lahir  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="tempat_tgl_lahir">
+        <br><br>
+    </div>
+
+    <label for="jenis">Jenis Kelamin  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="radio" name="jenis_kelamin" value="Laki_laki"><label for="laki_laki">Laki-Laki</label>&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="jenis_kelamin" value="Perempuan"><label for="perempuan">Perempuan</label>&nbsp;&nbsp;&nbsp;
+
+    <br><br>
+
+    <label for="agama_bebas">Agama  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="checkbox" name="agama" value="Islam"><label for="islam">Islam</label>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="agama" value="Budha"><label for="budha">Budha</label>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="agama" value="Kristen_Protestan"><label for="kristen_protestan">Kristen Protestan</label>&nbsp;&nbsp;&nbsp;
+    <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="agama" value="Kristen_Katolik"><label for="kristen_katolik">kristen Katolik</label>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="agama" value="Lainnya"><label for="lainnya">Lainnya</label>&nbsp;&nbsp;&nbsp;
+
+    <br><br>
+
+    <div class="isi2">
+
+    <label for="pekerjaan">Pekerjaan  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="pekerjaan_bidang">
+
+    <br><br>
+
+    <label for="alamat">Alamat  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="alamat_rumah">
+
+        <br><br>
+
+        <label for="kota">Kota  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="kota_bagian">
+
+        <br><br>
+
+        <label for="telepon">No. Tlp/HP  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" name="no_tlp_hp">
+
+        <br><br>
+    </div>
+
+        <label for="pendidikan">Pendidikan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="checkbox" name="pendidikan_sekolah" value="SD"><label for="sd">SD</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="pendidikan_sekolah" value="SMP"><label for="smp">SMP</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="pendidikan_sekolah" value="SMU"><label for="smu">SMU</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="pendidikan_sekolah" value="S1"><label for="s1">S1</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="pendidikan_sekolah" value="Lainnya"><label for="nol"><input type="text" class="derajat"></label>&nbsp;&nbsp;&nbsp;
+        
+        <br><br>
+
+        <label for="info">Info Cordova dari &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="checkbox" name="info_cordova_dari" value="Brosur"><label for="brosur">Brosur</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="info_cordova_dari" value="Koran"><label for="koran">Koran</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="info_cordova_dari" value="Spanduk"><label for="spanduk">Spanduk</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="info_cordova_dari" value="Website"><label for="website">Website</label>&nbsp;&nbsp;&nbsp;
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="info_cordova_dari" value="Teman"><label for="teman">Teman</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="info_cordova_dari" value="Lainnya"><label for="lainnya1">Lainnya(sebutkan)<input type="text" class="derajat"></label>&nbsp;&nbsp;&nbsp;
+
+        <br><br>
+
+    <div class="isi3">
+        
+            <label for="pilihan">Program Pilihan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <select name="program_pilihan">
+                <option value="">PKBM</option>
+                <option value="keaksaraan">Keaksaraan Fungsional</option>
+                <option value="sd">Paket A Setara SD</option>
+                <option value="smp">Paket B Setara SMP</option>
+                <option value="sma">Paket C Setara SMA</option>
+                <option value="skill">Life Skill Komputer (Paket A, B, C)</option>
+            </select>
+
+            <select id="kursus" name="kursus" name="custom-dropdown">
+                <option value="">Kursus Komputer</option>
+                <option value="aplikasi">Aplikasi Perkamtoran</option>
+                <option value="internet">Internet For Beginner</option>
+                <option value="mengetik">Mengetik 10 Jari</option>
+                <option value="percetakan">Desain Grafis Percetakan</option>
+                <option value="koran">Desain Grafis Koran</option>
+                <option value="teknisi">Teknisi Komputer</option>
+                <option value="2d">AutoCad 2D</option>
+                <option value="3d">AutoCad 3D</option>
+            </select>
+
+            <select id="kursus" name="kursus" name="custom-dropdown">
+                <option value="">Bimbingan Belajar</option>
+                <option value="sd">SD</option>
+                <option value="smp">SMP</option>
+                <option value="sma">SMA</option>
+            </select>
+
+            <br><br>
+
+        <div class="isi4">
+            <label for="kelas">Kelas Yang Diambil &nbsp; &nbsp;:</label>
+            <input type="radio" name="kelas_yang_diambil" value="pagi"><label for="pagi">Pagi</label>&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="radio" name="kelas_yang_diambil" value="Siang"><label for="siang">Siang</label>&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="radio" name="kelas_yang_diambil" value="Sore"><label for="sore">Sore</label>&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="radio" name="kelas_yang_diambil" value="Malam"><label for="malam">Malam</label>
+        </div>
+
+        <br><br>
+
+        <div class="isi5">
+            <label for="jadwal_belajar">Jadwal Belajar &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;:</label>
+
+            <select name="jadwal_belajar">
+                <option value="">Pilihan Hari</option>
+                <option value="hari1">Senin - Rabu - Jum`at</option>
+                <option value="hari2">Selasa - Kamis - Sabtu</option>
+                <option value="hari3">Minggu</option>
+            </select>
+            
+            <select id="program" name="program" name="custom-dropdown">
+                <option value="">Pilihan Jam</option>
+                <option value="jam1">08.00 - 09.30</option>
+                <option value="jam2">10.00 - 11.30</option>
+                <option value="jam3">13.00 - 14.30</option>
+                <option value="jam4">15.00 - 16.30</option>
+                <option value="jam5">17.00 - 18.30</option>
+                <option value="jam6">19.00 - 20.30</option>
+            </select>
+
+        <br><br><br>
+        </div>
+
+        <div class="log">
+            <a href=""><button type="submit" class="btn">SELESAI</button></a>
+        </div>
+
+    </div>
+        <br><br><br><br><br>
+</div>
+
+</div>
+
+</form>
+    
+</body>
+</html>

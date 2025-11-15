@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#7fffd4, #44d7a8, #00cc99, #30ba8f, #20b2aa);
+}
+
+.ukuran {
+    width: 750px;
+    height: 200vh;
+    margin: 100px 170px;
+    box-shadow: 0px 0px 20px gray;
+    background-color: #fff;
+}
+
+.judul {
+    padding: 15px 131px;
+    display: flex;
+}
+
+.judul img {
+    padding-right: 10px;
+}
+
+.judul h1 {
+    padding-top: 18px;
+}
+
+.formulir {
+    padding: 0px 25px;
+}
+
+.kiri {
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+}
+
+.kiri input {
+    width: 180px;
+    height: 30px;
+}
+
+.isi {
+    margin-top: 30px;
+}
+
+.isi input {
+    width: 500px;
+    height: 30px;
+}
+
+.isi2 input {
+    width: 500px;
+    height: 30px;
+}
+
+.derajat {
+    width: 150px;
+    height: 20px;
+}
+
+
+.isi3 label select #menu {
+    display: flex;
+}
+
+.isi5 label select #menu {
+    display: flex;
+}
+
+.log button {
+	width: 100px;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 10px;
+    box-shadow: 0px 0px 5px;
+    background-color: #37AFE1;
+    cursor: pointer;
+    transition: transform 1s ease;
+    margin: 10px 300px;
+    font-family: arial black;
+}
+
+.log button:hover {
+    transform: scale(1.1);
+}
